@@ -9,7 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96cae3dc-92d6-4ba3-ad21-cedc726a5728" name="Default Changelist" comment="" />
+    <list default="true" id="96cae3dc-92d6-4ba3-ad21-cedc726a5728" name="Default Changelist" comment="second commit">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20190722.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/UserRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ChatWeb_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ChatWeb_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ChatWeb.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/HelloResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/HelloRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/UserResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatWeb-1/WEB-INF/classes/com/ChatWeb/ChatWeb/HelloResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatWeb-1/WEB-INF/classes/com/ChatWeb/ChatWeb/UserResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ChatWeb/ChatWeb/HelloResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ChatWeb/ChatWeb/UserResource.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,6 +56,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -133,8 +149,26 @@
       <workItem from="1611802122581" duration="799000" />
       <workItem from="1611841859705" duration="10376000" />
       <workItem from="1611869348325" duration="1887000" />
-      <workItem from="1612472410073" duration="752000" />
+      <workItem from="1612472410073" duration="12201000" />
+      <workItem from="1612489146532" duration="2089000" />
+      <workItem from="1612553274865" duration="13753000" />
+      <workItem from="1612647439694" duration="1815000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1612473241151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612473241151</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1612473404913</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612473404913</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,5 +184,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>

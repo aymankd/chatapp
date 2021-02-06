@@ -34,6 +34,12 @@
             <artifactId>cassandra-driver-core</artifactId>
             <version>3.9.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.json/json -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20190722</version>
+        </dependency>
     </dependencies>
 
     <build>
