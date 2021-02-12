@@ -1,4 +1,4 @@
-package com.ChatWeb.ChatWeb;
+package com.ChatWeb.ChatWeb.RestSettings;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

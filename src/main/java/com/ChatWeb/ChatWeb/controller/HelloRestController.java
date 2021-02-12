@@ -1,4 +1,5 @@
-package com.ChatWeb.ChatWeb;
+package com.ChatWeb.ChatWeb.controller;
+import com.ChatWeb.ChatWeb.dao.CassandraConnexion;
 import com.datastax.driver.core.Session;
 import org.json.JSONObject;
 import javax.ws.rs.*;

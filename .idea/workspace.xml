@@ -9,7 +9,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96cae3dc-92d6-4ba3-ad21-cedc726a5728" name="Default Changelist" comment="real starting" />
+    <list default="true" id="96cae3dc-92d6-4ba3-ad21-cedc726a5728" name="Default Changelist" comment="updating2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/controller/UserMid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/CORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/RestSettings/CORSFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/CassandraConnexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/dao/CassandraConnexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/RestSettings/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/HelloRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/controller/HelloRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/dao/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/UserRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ChatWeb/ChatWeb/controller/UserRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatWeb-1/WEB-INF/classes/com/ChatWeb/ChatWeb/CORSFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatWeb-1/WEB-INF/classes/com/ChatWeb/ChatWeb/CassandraConnexion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatWeb-1/WEB-INF/classes/com/ChatWeb/ChatWeb/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatWeb-1/WEB-INF/classes/com/ChatWeb/ChatWeb/HelloRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatWeb-1/WEB-INF/classes/com/ChatWeb/ChatWeb/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/ChatWeb-1/WEB-INF/classes/com/ChatWeb/ChatWeb/UserRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ChatWeb/ChatWeb/CORSFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ChatWeb/ChatWeb/CassandraConnexion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ChatWeb/ChatWeb/HelloApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ChatWeb/ChatWeb/HelloRestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ChatWeb/ChatWeb/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ChatWeb/ChatWeb/UserRestController.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +48,7 @@
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_WARNINGS" value="true" />
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
@@ -49,9 +70,10 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="GlassFish Server.GlassFish 5.0.1">
     <configuration name="GlassFish 5.0.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.1" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ChatWeb/" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/ChatWeb-1/test/test" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="ChatWeb:war exploded">
           <settings />
@@ -121,6 +143,18 @@
         </option>
       </method>
     </configuration>
+    <configuration name="generated-requests#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="GlassFish Server.GlassFish 5.0.1" />
+      <item itemvalue="HTTP Request.generated-requests#3" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests#3" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -138,6 +172,12 @@
       <workItem from="1612489146532" duration="2089000" />
       <workItem from="1612553274865" duration="13753000" />
       <workItem from="1612647439694" duration="2024000" />
+      <workItem from="1612903903332" duration="2490000" />
+      <workItem from="1612970988422" duration="10642000" />
+      <workItem from="1613049579443" duration="1408000" />
+      <workItem from="1613063608387" duration="13308000" />
+      <workItem from="1613097662086" duration="930000" />
+      <workItem from="1613123277715" duration="1245000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1612473241151</created>
@@ -160,7 +200,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612650821594</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="updating login">
+      <created>1612903982961</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612903982961</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updating2">
+      <created>1612904065297</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612904065297</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +236,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="real starting" />
-    <option name="LAST_COMMIT_MESSAGE" value="real starting" />
+    <MESSAGE value="updating login" />
+    <MESSAGE value="updating2" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating2" />
   </component>
 </project>
