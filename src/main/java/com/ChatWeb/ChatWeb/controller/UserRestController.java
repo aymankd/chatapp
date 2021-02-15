@@ -30,13 +30,31 @@ public class UserRestController extends CassandraConnexion {
     @POST @Produces(MediaType.APPLICATION_JSON) @Path("/CreatPost")
     public String CreatPost(@FormParam("token") String token, @FormParam("text") String text) throws JSONException
     {
-        return mid.creatpost(token,text);
+        return mid.CreatPost(token,text);
     }
 
+    @POST @Produces(MediaType.APPLICATION_JSON) @Path("/Search")
+    public String SearchForUser(@FormParam("token") String token, @FormParam("keyword") String keyword) throws JSONException
+    {
+        return mid.Search(token,keyword);
+    }
 
+    @POST @Produces(MediaType.APPLICATION_JSON) @Path("/follow")
+    public String follow(@FormParam("token") String token, @FormParam("following") String following) throws JSONException
+    {
+        return mid.follow(token,following);
+    }
+    @POST @Produces(MediaType.APPLICATION_JSON) @Path("/unfollow")
+    public String unfollow(@FormParam("token") String token, @FormParam("following") String following) throws JSONException
+    {
+        return mid.unfollow(token,following);
+    }
 
-
-
+    @POST @Produces(MediaType.APPLICATION_JSON) @Path("/getNews")
+    public String getNews(@FormParam("token") String token) throws JSONException
+    {
+        return mid.getNews(token);
+    }
 
 
 
@@ -44,26 +62,17 @@ public class UserRestController extends CassandraConnexion {
     @POST @Produces(MediaType.APPLICATION_JSON) @Path("/register")
     public String Register(@FormParam("email") String email, @FormParam("psd") String pass) throws JSONException
     {
-        User u = new User(email,pass);
-        return u.register().toString();
+        //User u = new User(email,pass);
+        //return u.register().toString();
+        return "";
     }
-    @POST @Produces(MediaType.APPLICATION_JSON) @Path("/follow")
-    public String follow(@FormParam("email") String email, @FormParam("following") String following) throws JSONException
-    {
-        User u = new User(email);
-        return u.follow(following).toString();
-    }
-    @POST @Produces(MediaType.APPLICATION_JSON) @Path("/unfollow")
-    public String unfollow(@FormParam("email") String email, @FormParam("following") String following) throws JSONException
-    {
-        User u = new User(email);
-        return u.unfollow(following).toString();
-    }
+
 
     @POST @Produces(MediaType.APPLICATION_JSON) @Path("/comment")
     public String comment(@FormParam("pubemail") String pubemail, @FormParam("date") String date, @FormParam("email") String email, @FormParam("text") String text) throws JSONException
     {
-        User u = new User(email);
-        return u.comment(pubemail,date,text).toString();
+        //User u = new User(email);
+        //return u.comment(pubemail,date,text).toString();
+        return "";
     }
 }
